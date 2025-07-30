@@ -21,7 +21,7 @@
 
 body{
     padding: 10px;
-    background-color: #56AB;
+    background-color: rgba(255, 255, 255, 0.84);
 }
 
  #container{
@@ -236,4 +236,21 @@ color: white;
     background-color: #ff5f5f;
     color: white;
     padding: 12px 0;
+  }
+
+  .endereço{
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 25px; 
+    margin: auto;
+    height: 100px;
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e1194e;
+    text-align: center;
+    padding: 10px;
   }

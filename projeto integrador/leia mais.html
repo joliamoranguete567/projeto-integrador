@@ -8,7 +8,7 @@
      <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    
+ 
     </div>
    </div>
    <div class="jumbotron">
@@ -20,25 +20,65 @@
 </div>
    </div>
 
+   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="imagens/download.png" alt="Primeiro Slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="imagens/gêneros-de-livros.webp" alt="Segundo Slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="imagens/books.jpg" alt="Terceiro Slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
-<nav id="superior">
+    <nav id="superior">
    <ul>
-      <li><a href="index.html">home</a></li>
+      <li><a href="index.html" class="active"><i class="bi bi-house"></i>home</a></li>
        <li><a href="sobre.html">sobre</a></li>
-      <li><a href="contato.html" class="active">contato</a></li>
+      <li><a href="contato.html">contato</a></li>
       <li><a href="loc.html">venha nos conhecer!</a></li>
    </ul>
 </nav>
+
 
 <div id="container">
 <header>
     <h1>Index</h1>
 <p>Home</p>
 </header>
+<nav id="topo">
+   <ul>
+      <li><a href="index.html" class="active"><i class="bi bi-house"></i>home</a></li>
+       <li><a href="sobre.html">sobre</a></li>
+      <li><a href="contato.html">contato</a></li>
+      <li><a href="loc.html">venha nos conhecer!</a></li>
+   </ul>
+</nav>
+
+<nav id="lateral">
+   <p>navegaçao</p>
+   <ul>
+     <li><a href="index.html" class="active"><i class="bi bi-house"></i>home</a></li>
+      <li><a href="sobre.html">sobre</a></li>
+      <li><a href="contato.html">contato</a></li>
+      <li><a href="loc.html">venha nos conhecer!</a></li>
+   </ul>
+</nav>
 
    <main>
     <h3>Sistema Operacional</h3>
@@ -119,7 +159,6 @@ Sem um sistema operacional, um computador seria incapaz de executar programas ou
 <footer>
    home
 </footer>
-
 
 </body>
 </html>
