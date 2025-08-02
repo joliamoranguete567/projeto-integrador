@@ -21,13 +21,15 @@
 
 body{
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.84);
+    background-color: rgb(241, 244, 255);
 }
+
 
  #container{
     margin: 0 auto;
     /* centralizar o container */
     width: 100%;
+
 }
 
 header{
@@ -37,7 +39,6 @@ header{
     padding: 2%;
     text-align: center;
     background-color: #900a0a;
-    float: left;
     margin-bottom: 1%;
     font-family: "Special Gothic Condensed One", sans-serif;
     font-weight: 400;
@@ -204,12 +205,9 @@ color: white;
 /*nav lateral fim*/
 
 
-.endereço{
-    width: 50px;
-    border: 1px solid black;
-    border-radius: 25px; 
+.rs{
     margin: auto;
-    height: 100px;
+    padding: 2cm;
 }
 
 #Produtos td,
@@ -238,19 +236,12 @@ color: white;
     padding: 12px 0;
   }
 
-  .endereço{
-    width: 50px;
-    border: 1px solid black;
-    border-radius: 25px; 
-    margin: auto;
-    height: 100px;
-}
-
-footer{
-    bottom: 0;
-    left: 0;
+ footer{
     width: 100%;
-    background-color: #e1194e;
+    height: 350px;
+    background-color: #ff5f5f;
     text-align: center;
-    padding: 10px;
-  }
+    padding: 0%;
+    margin-top: 2cm;
+ }
+ 
