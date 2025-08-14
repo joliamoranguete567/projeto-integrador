@@ -208,33 +208,10 @@ color: white;
 .rs{
     margin: auto;
     padding: 2cm;
+    position: relative;
+
 }
 
-#Produtos td,
-#Produtos th {
-    border: 1px solid rgb(0, 0, 0);
-    padding: 5px;
-}
-
-#Produtos {
-    border-collapse: collapse; /*junta as linhas*/
-    width: 100%;
-    margin-top: 2%; /*pra separar a tabela do texto*/
-}
-
-#Produtos tr:nth-child(even) /*even - para formatar uma linha sim e uma nao*/{
-    background-color:rgb(92, 20, 20)
-}
-
-#Produtos tr:hover{
-    background-color: rgb(174, 125, 125);
-}
-
-#Produtos th{
-    background-color: #ff5f5f;
-    color: white;
-    padding: 12px 0;
-  }
 
  footer{
     width: 100%;
