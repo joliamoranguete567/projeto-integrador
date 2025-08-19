@@ -21,7 +21,7 @@
 
 body{
     padding: 10px;
-    background-color: rgb(241, 244, 255);
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -222,3 +222,6 @@ color: white;
     margin-top: 2cm;
  }
  
+ H6{
+    color: rgb(255, 255, 255);
+ }
