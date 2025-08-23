@@ -1,0 +1,227 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+ /*linkagem do icone*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Special+Gothic+Condensed+One&display=swap');
+/*linkagem da fonte*/
+
+@font-face {
+    font-family: "alien";
+   src: url('../fontes/Other Space.ttf');
+  }
+
+  @font-face {
+    font-family: "platinum";
+   src: url('../fontes/Platinum\ Sign.ttf');
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 10px;
+    background-color: rgb(64, 64, 64);
+}
+
+
+ #container{
+    margin: 0 auto;
+    /* centralizar o container */
+    width: 100%;
+
+}
+
+header{
+    height: 60px;
+    width: 96%;
+    border-radius: 20px;
+    padding: 2%;
+    text-align: center;
+    background-color: #900a0a;
+    margin-bottom: 1%;
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+
+ }
+ nav#lateral{
+    width: 20%;
+    background-color: rgb(171, 42, 42);
+    font-family: "platinum";
+ }
+
+main {
+    width: 45%;
+    background-color: #9c3535;
+    padding: 1%;
+    border-radius: 20px;
+    float: right; 
+    font-family: "Inria Sans", sans-serif;
+    margin-top: 10px;
+    margin-right: 20px;
+ 
+}
+
+
+ main {
+    background-color: #861515;
+    padding: 1%;
+    margin-top: 10px;
+    float: left;
+    width: 45%;
+   margin-left: 20px;
+ }
+
+
+nav#superior{
+    width: 100%;
+    margin-bottom: 1%;
+    float: left;
+    
+}
+/*nav superior inicio*/
+
+nav#superior ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(215, 18, 18);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid whitesmoke;
+}
+
+nav#superior li {
+    display: inline-block;
+}
+
+nav#superior li a{
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav#superior li a:hover {
+    background-color: black;
+}
+
+nav#superior .active {
+background-color: rgb(148, 46, 46);
+}
+
+/*nav superior fim */
+
+header,
+nav#lateral,
+footer{
+    float: left;
+}
+
+/*nav topo inicio*/
+
+nav#topo{
+    width: 100%;
+    margin-bottom: 1%;
+    float: left;
+    
+}
+
+nav#topo ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(137, 19, 19);
+    text-align: center;
+    
+}
+
+nav#topo li {
+   float: left;
+}
+
+nav#topo li a{
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav#topo li a:hover {
+    background-color: black;
+}
+
+nav#topo .active {
+background-color: rgb(185, 23, 23);
+}
+
+nav#topo li{
+border-right: 1px solid rgb(96, 0, 0); /*coloca a borda*/
+}
+
+nav#topo li:last-child{
+border-right: none; /*tira a borda do ultimo, no caso contato*/
+}
+
+/*nav topo fim*/
+
+
+/*nav lateral inicio*/
+
+nav#lateral{
+    width: 100%;
+    margin-bottom: 1%;
+    float: left; 
+}
+
+nav#lateral ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav#lateral li a{
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav#lateral li a:hover {
+    background-color: rgb(138, 0, 0);
+}
+
+nav#lateral .active {
+background-color: rgb(87, 0, 0);
+color: white;
+}
+
+/*nav lateral fim*/
+
+
+.rs{
+    margin: auto;
+    padding: 2cm;
+    position: relative;
+
+}
+
+
+ footer{
+    width: 100%;
+    height: 350px;
+    background-color: #ff5f5f;
+    text-align: center;
+    padding: 0%;
+    margin-top: 2cm;
+ }
+ 
+ H6{
+    color: rgb(64, 64, 64);
+ }

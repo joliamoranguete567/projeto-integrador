@@ -1,0 +1,148 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+ /*linkagem do icone*/
+
+/*body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}*/
+
+
+
+.perfil-container {
+    background-color: rgb(105, 105, 105);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+}
+
+.perfil-header {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.perfil-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.perfil-header h1 {
+    margin: 10px 0 5px 0;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.perfil-bio {
+    color: #ffffff;
+    font-size: 1em;
+    padding: 0 15px;
+}
+
+.perfil-informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.info-item {
+    color: #ffffff;
+    font-size: 0.9em;
+}
+
+.info-item strong {
+    color: #333;
+}
+
+/*.perfil-estatisticas {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.estatistica-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.estatistica-item strong {
+    font-size: 1.5em;
+    color: #007bff;
+}
+
+.estatistica-item span {
+    font-size: 0.8em;
+    color: #888;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+    
+no html-<div class="perfil-estatisticas">
+            <div class="estatistica-item">
+                <strong>150</strong>
+                <span>Seguidores</span>
+            </div>
+            <div class="estatistica-item">
+                <strong>200</strong>
+                <span>Seguindo</span>
+            </div>
+            <div class="estatistica-item">
+                <strong>50</strong>
+                <span>Publicações</span>
+            </div>
+        </div>
+
+*/
+
+/* Estilos da barra de navegação */
+.navbar {
+    width: 100%;
+    align-items: center;
+    position: fixed; 
+    top: 0;
+    left: 0;
+  
+}
+
+.back-link:hover {
+    color: #ddd;
+}
+
+body {
+    padding-top: 30px; /* Adiciona um espaço no topo igual à altura da navbar */
+    font-family: Arial, sans-serif;
+    background-color: rgb(64, 64, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/*  padding: 15px;
+    display: flex;
+    /*top: 0;
+    left: 0;
+    z-index: 1000; /* Garante que a barra fique por cima de outros elementos
+    */
